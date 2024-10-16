@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/hulbert-hopper');
+@import url('https://fonts.cdnfonts.com/css/brogetta');
+
+@media (max-width:1024px) {
+    .body {
+        flex: 1 1 30%;
+        background: #333;
+        color: white;
+    }
+
+    .content-all {
+        flex: 1 1 30%;
+        background: #333;
+        color: white;
+    }
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    justify-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.content-all {
+    background-color: #ffffff;
+    gap: 9px;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    background-color: rgb(142, 67, 240);
+    border-radius: 20px;
+    /* box-shadow: 20px 20px 2px #4814d4; */
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 90%;
+    height: 90%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+#header .content {
+    background-image: url('https://i.pinimg.com/736x/87/90/5c/87905ce4c69ad70ac55fadd6abd217cd.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+}
+
+#header img {
+    height: 40%;
+    width: 35%;
+}
+
+#header h1 {
+    font-family: 'Boomer Tantrum', sans-serif;
+}
+
+h2 {
+    font-family: 'Hulbert Hopper', sans-serif;
+}
+
+.flex-container {
+    display: flex;
+    border: 1px solid #3207ce;
+    border-radius: 20px;
+    box-shadow: 20px 20px 2px #4814d4;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 90%;
+    height: 80%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-container ul li h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex-item {
+    background-color: #8169f0;
+    height: 70%;
+    width: 1000px;
+    border: 1px solid black;
+    color: #f5fcf2;
+    padding: 20px;
+    margin: 5px;
+    text-align: center;
+}
+
+
+.content1{
+ margin: auto;
+ padding: 30px;
+ gap: 10px;
+   
+}
+.content2{
+   margin: auto;
+   padding: 30px;
+   gap: 10px;
+   
+}
+.content2 h2,h3{
+    padding: 20px;
+
+}
+.content3{
+    margin:auto ;
+    padding: 30px;
+    gap: 10px;
+   
+}
+.content3 h2,h3{
+    padding: 20px;
+  
+ 
+}
+.content4{
+    margin: auto;
+    padding: 30px;
+    gap: 10;
+   
+}
+.content .text {
+    max-width: 600px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.content.text h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+
+}
+
+.content .text p {
+    font-size: 1.1em;
+    color: #555;
+    padding: 90px;
+    margin-top: 8px;
+}
+
+#tabela table {
+    border: 1px solid black;
+    width: 50%;
+    border-collapse: collapse;
+    margin: auto;
+    color: #000000;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #4814d4;
+    text-align: center;
+}
+
+tr {
+    background-color: #8169f0;
+    color: #ffffff;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input,
+form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #6a41ff;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #3333338c;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #e473d1;
+}
+
+#footer {
+    background-image: url('https://i.pinimg.com/736x/87/90/5c/87905ce4c69ad70ac55fadd6abd217cd.jpg');
+    color: white;
+    background-color: white;
+    width: 100%;
+    height: 10vh;
+    margin-top: 0.5px;
+}
+
+#footer h3 a {
+    background-image: url('https://i.pinimg.com/736x/87/90/5c/87905ce4c69ad70ac55fadd6abd217cd.jpg');
+    color: white;
+    background-color: white;
+    width: 100%;
+    height: 10vh;
+    margin-top: 0.5px;
+}
+.ref{
+    background-image: url('https://i.pinimg.com/736x/87/90/5c/87905ce4c69ad70ac55fadd6abd217cd.jpg');
+
+}
+
+.ref a {
+    text-decoration: none;
+    color: white;
+}
